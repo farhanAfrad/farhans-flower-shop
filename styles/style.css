@@ -40,8 +40,7 @@ body{
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
-    
+    transform: translateX(-50%);  
 }
 
 
@@ -129,4 +128,22 @@ body{
 }
 .feature img{
     margin-bottom: 24px;
+}
+
+/* offer section styles */
+.offer-section-container{
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.offers-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 70px;
+}
+.offers-description{
+    text-align: center;
+}
+.offers-off{
+    color: #E55473;
 }
