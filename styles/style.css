@@ -212,7 +212,7 @@ footer span{
     display: flex;
     flex-direction: column;
 }
-.review-1 img{
+.review-1 img, .review-2 img{
     margin-bottom: 20px;
 }
 
@@ -241,9 +241,7 @@ footer span{
     width: 90px;
     border-radius: 50%
 }
-.review-2 .quotes > img{
-    margin-bottom: 20px;
-}
+
 .review-container{
     background-color:rgba(205, 122, 123, 0.4);
     border-radius: 8px;
