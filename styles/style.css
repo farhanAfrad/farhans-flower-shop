@@ -41,6 +41,7 @@ body{
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+    
 }
 
 
@@ -72,7 +73,7 @@ body{
     color: #fff;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 17px 40px;
     border: none;
 }
 
@@ -89,7 +90,7 @@ body{
     
 }
 .flower{
-    width: 35%;
+    width: 30%;
     height: 400px;
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
@@ -104,6 +105,28 @@ body{
     background-color: rgba(5, 151, 160, 0.15);
 }
 #third-flower{
-    background-color: rgba(71, 125, 17, 0.15);
-        
+    background-color: rgba(71, 125, 17, 0.15);      
+}
+
+.flower-name{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: -50px;
+}
+
+/* our feature section style */
+.features-container{
+    display: flex;
+    padding: 85px 175px;
+    justify-content: space-between;
+    
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+}
+.feature{
+    text-align: center;
+}
+.feature img{
+    margin-bottom: 24px;
 }
