@@ -182,3 +182,69 @@ input[type="button"]{
     font-size: 18px;
     margin-left: 10px;
 }
+
+/* footer section style */
+footer{
+    background: #111010;
+    padding: 128px;
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+footer span{
+    color: #fff;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+
+/* bonus seciton styles */
+.quotes{
+    display: flex;
+    flex-direction: column;
+}
+.review-1 img{
+    margin-bottom: 20px;
+}
+
+.review{
+    display: flex;
+    padding: 100px 80px;
+    gap: 40px;
+
+}
+
+.review-1 img,
+.review-2 img {
+    height: 90px;
+    width: 90px;
+}
+.customer{
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+   margin-top: 20px;
+   font-size: 14px;
+   color: #272727;
+}
+.customer img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%
+}
+.review-2 .quotes > img{
+    margin-bottom: 20px;
+}
+.review-container{
+    background-color:rgba(205, 122, 123, 0.4);
+    border-radius: 8px;
+}
