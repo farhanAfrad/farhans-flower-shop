@@ -159,3 +159,26 @@ body{
 .insta-image-container img{
     width: 24%;
 }
+
+/* subscribe section style */
+.subscirbe-container{
+    background-image: 
+    url("../images/Rectangle\ 9.png");
+    border-radius: 8px;
+}
+.subscribe-section{
+    text-align: center;
+    padding: 122px;
+}
+input[type="email"]{
+    width: 60%;
+    background: #fff;
+    border-radius: 7px;
+    padding: 16px;
+    border: none;
+}
+input[type="button"]{
+    padding: 12px 14px;
+    font-size: 18px;
+    margin-left: 10px;
+}
