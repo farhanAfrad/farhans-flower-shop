@@ -5,21 +5,54 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background: rgba(229, 84, 115, 0.10);
+}
+
+
+/*----------------------------------------
+-------   common style/utilites    -------
+------------------------------------------*/
+.container{
     max-width: 1140px;
     margin: auto;
 }
-
-/* common styles */
 .color{
     color: #272727;
 }
+.mb{
+    margin-bottom: 128px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.section-description{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 48px;
+}
+
+.ps-relative{
+    position: relative;
+}
+
+.ps-absolute{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
 
 /* header banner style */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-top: 50px;
+}
 .banner{
     display: flex;
     align-items: center;
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 .banner-title{
@@ -41,4 +74,36 @@ body{
     font-weight: 700;
     padding: 20px 40px;
     border: none;
+}
+
+/* fetured flower style */
+.featured-container{
+    text-align: center;
+    margin-top: 170px;
+}
+
+.flowers-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    
+}
+.flower{
+    width: 35%;
+    height: 400px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+.flower img{
+    height: 330px;
+}
+#first-flower{
+    background: rgba(167, 33, 98, 0.15);
+}
+#second-flower{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+#third-flower{
+    background-color: rgba(71, 125, 17, 0.15);
+        
 }
