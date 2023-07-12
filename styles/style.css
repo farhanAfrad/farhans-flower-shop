@@ -208,6 +208,9 @@ footer span{
 
 
 /* bonus seciton styles */
+.text-aling-center{
+    text-align: center;
+}
 .quotes{
     display: flex;
     flex-direction: column;
